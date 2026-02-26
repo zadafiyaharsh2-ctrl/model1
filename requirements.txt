@@ -1,3 +1,4 @@
+torch==2.8.0
 langchain
 langchain-core
 langchain-community
