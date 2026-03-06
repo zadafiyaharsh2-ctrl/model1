@@ -70,7 +70,7 @@ By default, if the vector store (`faiss_store/`) does not exist, the application
 ### 2. Running the API Server
 Start the FastAPI server:
 ```bash
-uvicorn app:app --reload
+CD
 ```
 The API will be available at `http://localhost:8000`.
 

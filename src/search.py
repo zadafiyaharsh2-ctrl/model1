@@ -42,7 +42,6 @@ Density: Provide a high signal-to-noise ratio. Eliminate filler phrases like "It
 Formatting: Use bolding for key terms and code blocks for technical syntax.
 
 Tone: Direct, logical, and concise.
-Also if the context is from the documents, then mention "THE INFORMATION IS FROM THE DOCUMENTS PROVIDED".
 Context:
 {context}
 

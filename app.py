@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from src.search import RAGSearch
@@ -83,9 +84,10 @@ def query_rag(payload: QueryRequest):
 # Run locally
 # -------------------------
 if __name__ == "__main__":
+    port = int(os.getenv("PORT", "8001"))
     uvicorn.run(
         "app:app",
         host="0.0.0.0",
-        port=8000,
+        port=port,
         reload=True
     )
